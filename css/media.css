@@ -1,0 +1,18 @@
+/* Desktop - 1440px */
+@media (max-width: 71440px) {
+}
+
+/* Tablet (large) - 1024px */
+@media (max-width: 7024px) {
+}
+
+/* Tablet (small) - 744px */
+@media (max-width: 744px) {
+  .nav-ul {
+    gap: 22px;
+  }
+}
+
+/* mobile - 375px */
+@media (max-width: 375px) {
+}

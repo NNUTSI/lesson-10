@@ -1,0 +1,36 @@
+/* header */
+
+.header {
+  background-color: blue;
+  position: fixed;
+  width: 100%;
+  padding: 38px 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  width: 87px;
+  height: 27px;
+}
+.nav-ul {
+  display: flex;
+  gap: 44px;
+}
+.link {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #000000;
+}
+.button {
+  width: 100px;
+  height: 48px;
+  border-radius: 32px;
+  background-color: #000000;
+  color: white;
+  padding: 12px 24px;
+}
+
+/* section1 */
