@@ -1,8 +1,10 @@
 /* header */
-
+body {
+  height: 100000px;
+}
 .header {
-  background-color: blue;
   position: fixed;
+  background-color: white;
   width: 100%;
   padding: 38px 32px;
   display: flex;
@@ -32,5 +34,106 @@
   color: white;
   padding: 12px 24px;
 }
+.fa-bars {
+  display: none;
+}
 
 /* section1 */
+.section1 {
+  padding-top: 164px;
+}
+.section1-main-div {
+  max-width: 1140px;
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 32px 130px;
+}
+.section1-left-div {
+  width: 490px;
+  height: 288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section1-title-div {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section1-h1 {
+  font-family: "Inter";
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 60px;
+}
+.section1-p1 {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.section1-button-div {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.section1-p2 {
+  width: 236px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.section1-img {
+  background-image: url("/pic/1.1.jpg");
+  width: 490px;
+  height: 428px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+/* section-2 */
+.section2 {
+  background-color: #f3f3f3;
+  display: flex;
+  margin: 0 auto;
+  padding: 64px 150px 64px 150px;
+  justify-content: center;
+  gap: 30px;
+}
+.section2-div {
+  width: 360px;
+  height: 128px;
+}
+.section2-h2 {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: black;
+  margin-bottom: 16px;
+}
+.section2-p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: black;
+}
+.section2-h2::before {
+  content: " ";
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 16px;
+}
