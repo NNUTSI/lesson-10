@@ -2,6 +2,7 @@
 @media (max-width: 71440px) {
 }
 
+
 /* Tablet (large) - 1024px */
 @media (max-width: 7024px) {
   .section1-main-div {
@@ -24,9 +25,7 @@
     height: 450px;
   }
 
-  .section2 {
-    padding: 39px 32px 39px 32px;
-  }
+  /* section-2 */
   .section2-p {
     font-size: 16px;
     font-weight: 400;

@@ -103,15 +103,15 @@ body {
 /* section-2 */
 .section2 {
   background-color: #f3f3f3;
-  display: flex;
   margin: 0 auto;
+  display: flex;
   padding: 64px 150px 64px 150px;
   justify-content: center;
   gap: 30px;
 }
 .section2-div {
-  width: 360px;
-  height: 128px;
+  max-width: 360px;
+  width: 100%;
 }
 .section2-h2 {
   font-family: "Inter";
