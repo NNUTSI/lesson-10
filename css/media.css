@@ -2,14 +2,15 @@
 @media (max-width: 71440px) {
 }
 
-
-/* Tablet (large) - 1024px */
-@media (max-width: 7024px) {
+/* __________________________________________________ */
+@media (max-width: 1024px) {
+  /* section-1 */
   .section1-main-div {
     flex-direction: column;
+    padding: 32px;
   }
   .section1-left-div {
-    width: 630px;
+    width: 100%;
   }
   .section1-h1 {
     text-align: center;
@@ -18,25 +19,50 @@
     text-align: center;
   }
   .section1-button-div {
+    width: 100%;
     justify-content: center;
+  }
+  .section1-p2 {
+    max-width: 370px;
+    width: 100%;
   }
   .section1-img {
     width: 100%;
     height: 450px;
   }
-
-  /* section-2 */
-  .section2-p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+  /* section2 */
+  .section2-main-div {
+    padding: 32px;
+  }
+  /* section3 */
+  .section3 {
+    padding: 32px;
+  }
+  .section3-main-div {
+    flex-direction: column;
+  }
+  .section3-img-div {
+    width: 100%;
+    height: 550px;
+  }
+  .section3-text-div {
+    width: 100%;
+    flex-direction: row;
+    align-content: space-between;
+    column-gap: 129px;
   }
 }
 
-/* Tablet (small) - 744px */
+/* _____________________________________________________ */
 @media (max-width: 744px) {
+  /* header */
   .nav-ul {
     gap: 22px;
+  }
+
+  /* section-1 */
+  .section1-left-div {
+    width: 96%;
   }
   .section1-h1 {
     font-size: 40px;
@@ -54,24 +80,40 @@
     width: 100%;
   }
 
-  .section2 {
-    flex-wrap: wrap;
+  /* section-2 */
+  .section2-main-div {
+    flex-direction: column;
   }
   .section2-div {
-    width: 744px;
-    height: 138px;
-    padding: 20px 0px 20px 0px;
-    gap: 10px;
+    width: 100%;
   }
   .section2-h2 {
     text-align: center;
   }
   .section2-p {
-    align-items: center;
+    text-align: center;
+  }
+
+  /* section3 */
+  .section3-main-div {
+    padding: 24px;
+  }
+  .section3-img-div {
+    width: 100%;
+    height: 550px;
+  }
+  .section3-h2 {
+    text-align: center;
+  }
+  .section3-text-div {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
+/* ______________________________________________ */
 @media (max-width: 540px) {
+  /* header */
   .nav-ul {
     display: none;
   }
@@ -82,6 +124,7 @@
     display: block;
   }
 }
-/* mobile - 375px */
+
+/* _________________________________________________ */
 @media (max-width: 375px) {
 }

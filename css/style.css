@@ -27,12 +27,15 @@ body {
   color: #000000;
 }
 .button {
-  width: 100px;
-  height: 48px;
   border-radius: 32px;
   background-color: #000000;
   color: white;
   padding: 12px 24px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
 }
 .fa-bars {
   display: none;
@@ -47,21 +50,20 @@ body {
   width: 96%;
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 32px 130px;
 }
 .section1-left-div {
   width: 490px;
-  height: 288px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  row-gap: 40px;
 }
 .section1-title-div {
-  height: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  row-gap: 24px;
 }
 .section1-h1 {
   font-family: "Inter";
@@ -74,10 +76,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
 }
 .section1-button-div {
-  height: 48px;
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -103,15 +103,19 @@ body {
 /* section-2 */
 .section2 {
   background-color: #f3f3f3;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.section2-main-div {
+  max-width: 1140px;
+  width: 96%;
   margin: 0 auto;
   display: flex;
-  padding: 64px 150px 64px 150px;
-  justify-content: center;
-  gap: 30px;
+  align-items: center;
+  gap: 30px 130px;
 }
 .section2-div {
-  max-width: 360px;
-  width: 100%;
+  width: 360px;
 }
 .section2-h2 {
   font-family: "Inter";
@@ -136,4 +140,76 @@ body {
   border-radius: 50%;
   display: inline-block;
   margin-right: 16px;
+}
+
+/* section-3 */
+.section3 {
+  background-color: black;
+  padding: 96px 150px;
+}
+.section3-main-div {
+  max-width: 1140px;
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 64px 133px;
+}
+.section3-img-div {
+  background-image: url(/pic/2.1.jpg);
+  width: 503.5px;
+  height: 428px;
+  border-radius: 12px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section3-text-div {
+  width: 503.5px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  row-gap: 16px;
+}
+.section3-h2 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #ffffff;
+}
+.section3-div {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  row-gap: 16px;
+}
+.section3-p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/* section4 */
+.white {
+  background-color: white;
+  color: #000000;
+}
+.section4-bg-div {
+  background-image: url(/pic/3.1.jpg);
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 564px;
+}
+.section4-h4 {
+}
+.section4-h2 {
 }
