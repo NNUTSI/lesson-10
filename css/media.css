@@ -51,6 +51,15 @@
     align-content: space-between;
     column-gap: 129px;
   }
+
+  /* footer */
+  .footer-column-none {
+    display: none;
+  }
+
+  .footer {
+    padding: 45px 32px;
+  }
 }
 
 /* _____________________________________________________ */
