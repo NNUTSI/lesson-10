@@ -4,6 +4,11 @@
 
 /* __________________________________________________ */
 @media (max-width: 1024px) {
+  /* header */
+  .nav-ul {
+    width: 408px;
+    gap: 44px;
+  }
   /* section-1 */
   .section1 {
     padding-top: 132px;
@@ -12,11 +17,12 @@
     flex-direction: column;
   }
   .section1-title-div {
-    width: 630px;
+    max-width: 630px;
+    width: 100%;
     margin: 0 auto;
   }
   .section1-left-div {
-    width: 100%;
+    width: 96%;
   }
   .section1-h1 {
     text-align: center;
@@ -76,7 +82,10 @@
 /* _____________________________________________________ */
 @media (max-width: 744px) {
   /* header */
+
   .nav-ul {
+    max-width: 320px;
+    width: 96%;
     gap: 22px;
   }
 
@@ -84,10 +93,18 @@
   .section1 {
     padding-top: 100px;
   }
-  /* .section1-main-div {
-    width: 696px;
-  } */
+  .section1-main-div {
+    max-width: 696px;
+    width: 100%;
+  }
+  .section1-p1 {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+  }
   .section1-h1 {
+    font-family: "Inter";
     font-size: 40px;
     font-weight: 900;
     line-height: 49px;
@@ -106,9 +123,6 @@
   /* section-2 */
   .section2-main-div {
     flex-direction: column;
-  }
-  .section2-div {
-    width: 100%;
   }
   .section2-h2 {
     text-align: center;
@@ -132,21 +146,23 @@
     flex-direction: column;
     text-align: center;
   }
-
+  /* section4 */
+  .section4-bg-text {
+    max-width: 744px;
+    width: 96%;
+  }
   /* footer */
+  .footer {
+    padding: 25px 22px 25px 22px;
+  }
   .footer-main-div {
     row-gap: 20px;
-    padding: 40px 22px 40px 22px;
     justify-content: flex-start;
   }
 }
 
-/* ______________________________________________ */
-@media (max-width: 540px) {
-  /* header */
-}
-/* _________________________________________________ */
-@media (max-width: 375px) {
+/* _____________________________________________________ */
+@media (max-width: 520px) {
   .button {
     display: none;
   }
@@ -156,7 +172,17 @@
   .nav-ul {
     display: none;
   }
+}
+/* _________________________________________________ */
+@media (max-width: 375px) {
   .footer-main-div {
     margin: 0 auto;
+  }
+
+  .footer-column {
+    align-items: center;
+  }
+  .footer-column-topics {
+    align-items: center;
   }
 }
